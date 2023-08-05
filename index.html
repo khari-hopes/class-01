@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=, initial-scale=1.0" />
+</html>
+</head>
+<body>
+  <header>
+  <img class="top" src="spider-man.png" href="picture of spider-man">
+  </header>
+  <main>
+    <h1>Class 1 Lab</h1>
+    <p>Who is your favorite Spider-Man?</p>
+    <p>Who is the best Peter Parker?</p>
+    <p>Who has the best Spider-Man suit?</p>
+    <p>What is the best Spider-Man movie?</p>
+      <div class="clearfix">
+        <img class="d-inline-block tobey-image" src="tobeyhead.jpg" alt="picture of tobey">
+        <h2 class="d-inline-block">Tobey</h2>
+      </div>  
+    <div class="clearfix">
+      <img class="d-inline-block andrew-image" src="andrewhead.jpg" alt="picture of andrew">
+      <h2 class="d-inline-block">Andrew</h2>
+    </div>  
+    <div class="clearfix">
+      <img class="d-inline-block tom-image" src="tomhead.jpg" alt="picture of tom">
+      <h2 class="d-inline-block">Tom</h2>
+    </div>  
+    <div class="clearfix">
+      <img class="d-inline-block miles-image" src="mileshead.jpg" alt="picture of miles">
+      <h2 class="d-inline-block">Miles</h2>
+    </div>  
+    <div class="clearfix">
+      <img class="d-inline-block mystery-image" src="mysteryhead.png" alt="picture of mystery character">
+      <h2 class="d-inline-block">Mystery</h2>
+    </div>  
+  </main>
+  <footer>
+    <style> 
+  .tobey-image {
+    float: right;
+    margin-bottom: 250px;
+  }
+  .andrew-image {
+    float: left;
+    margin-bottom: 250px;
+  }
+  .tom-image {
+    float: right;
+    margin-bottom: 250px;
+  }
+  .miles-image {
+    float: left;
+    margin-bottom: 250px;
+  }
+  .mystery-image {
+    float: right;
+    margin-bottom: 250px;
+  }
+.top {
+  width: 100%;
+}
+.d-inline-block {
+  display: inline-block;
+}
+  
+h2 {
+  font-size: 50px;
+}
+main{
+  width: 70%;
+  margin: 0 auto;
+}
+img{
+  width:60%;
+}
+.clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+}
+    footer {
+    background-color:	#000000; 
+    color: #B11313;
+    text-align: center;
+    }
+    </style>
+      <script>
+        let username = prompt("What's your name?");
+        console.log("Username: " + username);
+        let usersFavS = prompt("Who is the best Spider-Man?");
+        console.log("User's FavS: " + usersFavS);
+        let usersFavP = prompt("Who is the best Peter Parker?");
+        console.log("User's FavP: " + usersFavP);
+        let usersFavM = prompt("What is your favorite Spider-Man movie?");
+        console.log("User's FavM: " + usersFavM);        
+        alert("Greeting " + username + ", who's favorite Spider-Man is " + usersFavS + " and thinks " + usersFavP + " is the best Peter Parker. While" + favM + "is their favorite Spider-Man movie");
+      </script>
+    <p>&copy; Khari</p>
+  </footer>
